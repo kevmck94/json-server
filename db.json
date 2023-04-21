@@ -1,4 +1,211 @@
 {
-  "photos": [
+  "users": [
+    {
+      "id": "1",
+      "name": "Select User"
+    },
+    {
+      "id": "2",
+      "name": "Dane"
+    },
+    {
+      "id": "3",
+      "name": "Calvin"
+    },
+    {
+      "id": "4",
+      "name": "Bob"
+    },
+    {
+      "id": "5",
+      "name": "Dr. Dan"
+    },
+    {
+      "id": "6",
+      "name": "Daniel"
+    }
+  ],
+  "recipes": [
+    {
+      "id": "1",
+      "name": "Chocolate Cake",
+      "description": "Delicious chocolate cake",
+      "imageUrl": "https://www.lilcookie.com/wp-content/uploads/2018/11/American_chocolate_cake3-square.jpg",
+      "user": ""
+    },
+    {
+      "id": "4",
+      "name": "Tacos",
+      "description": "hey guess what its tacos, you like tacos?",
+      "imageUrl": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftornadoughalli.com%2Fwp-content%2Fuploads%2F2019%2F05%2FINSTANT-POT-STREET-TACOS.jpg&f=1&nofb=1&ipt=ee20e093205500d5256eed0f588221f18b20227d70c344c3393226615460c87a&ipo=images",
+      "user": ""
+    },
+    {
+      "id": "7",
+      "name": "Pesto Pasta Salad",
+      "description": "A refreshing and flavorful pasta salad with pesto dressing.",
+      "imageUrl": "https://www.gimmesomeoven.com/wp-content/uploads/2021/06/Pesto-Pasta-Salad-Recipe-6-2.jpg",
+      "user": ""
+    },
+    {
+      "id": "8",
+      "name": "Beef Stew",
+      "description": "Hearty and comforting beef stew with tender chunks of beef and vegetables.",
+      "imageUrl": "https://healthyfitnessmeals.com/wp-content/uploads/2020/01/Classic-beef-stew-3.jpg",
+      "user": ""
+    },
+    {
+      "id": "10",
+      "name": "Cheeseburger",
+      "description": "A classic American cheeseburger with all the fixings.",
+      "imageUrl": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fthedelightfullaugh.com%2Fwp-content%2Fuploads%2F2020%2F09%2Fsmashed-double-cheeseburger.jpg&f=1&nofb=1&ipt=d99850a6f6563276c79afa618c1d7dfa69485f875a3bae10e97cc297de6cd89b&ipo=images",
+      "user": ""
+    },
+    {
+      "id": "11",
+      "name": "Sushi",
+      "user": "",
+      "description": "A gourmet blend of fish, rice, sushi and flavorful toppings",
+      "imageUrl": ""
+    },
+    {
+      "id": "3ZzIN0k",
+      "name": "Ramen",
+      "user": "",
+      "description": "A warm savory noodle soup dish",
+      "imageUrl": "https://i2.wp.com/girlontherange.com/wp-content/uploads/2015/12/ramen-bowl-again-www.girlontherange.com_.jpg",
+      "rating": 0
+    },
+    {
+      "name": "Fried Chicken",
+      "description": "Crunchy and juicy",
+      "user": "",
+      "imageUrl": "https://cdn.abcotvs.com/dip/images/5230298_shutterstock_547315051.jpg",
+      "rating": 0,
+      "id": "rBQf5ov"
+    },
+    {
+      "name": "grilled cheese",
+      "description": "chunchy, cheesy, whats not to love",
+      "user": "",
+      "imageUrl": "",
+      "rating": 0,
+      "id": "cDhIy9P"
+    },
+    {
+      "name": "churros",
+      "description": "sweet churros",
+      "user": "",
+      "imageUrl": "",
+      "rating": 0,
+      "id": "ARow88s"
+    }
+  ],
+  "recipe-category": [
+    {
+      "recipeId": "1",
+      "categoryId": "1"
+    },
+    {
+      "recipeId": "1",
+      "categoryId": "3"
+    },
+    {
+      "recipeId": "7",
+      "categoryId": "2"
+    },
+    {
+      "recipeId": "7",
+      "categoryId": "3"
+    },
+    {
+      "recipeId": "8",
+      "categoryId": "2"
+    },
+    {
+      "recipeId": "10",
+      "categoryId": "2"
+    },
+    {
+      "recipeId": "11",
+      "categoryId": "2"
+    },
+    {
+      "recipeId": "3ZzIN0k",
+      "categoryId": "2"
+    },
+    {
+      "recipeId": "rBQf5ov",
+      "categoryId": "2"
+    },
+    {
+      "recipeId": "cDhIy9P",
+      "categoryId": "2"
+    },
+    {
+      "recipeId": "cDhIy9P",
+      "categoryId": "3"
+    },
+    {
+      "recipeId": "bgkSGov",
+      "categoryId": "1"
+    },
+    {
+      "recipeId": "bgkSGov",
+      "categoryId": "3"
+    },
+    {
+      "id": "3",
+      "recipeId": "4",
+      "categoryId": "2"
+    },
+    {
+      "id": 1682084261910,
+      "recipeId": "4",
+      "categoryId": "1"
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Desserts"
+    },
+    {
+      "id": "2",
+      "name": "Dinner"
+    },
+    {
+      "id": "3",
+      "name": "Vegetarian"
+    }
+  ],
+  "ratings": [
+    {
+      "id": "1",
+      "recipeId": "1",
+      "userId": "1",
+      "value": 4
+    },
+    {
+      "id": "2",
+      "recipeId": "1",
+      "userId": "2",
+      "value": 5,
+      "comment": "This cake is amazing!"
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "recipeId": "1",
+      "userId": "1",
+      "text": "I really enjoyed this cake!"
+    },
+    {
+      "id": "2",
+      "recipeId": "1",
+      "userId": "2",
+      "text": "This is my new favorite cake recipe!"
+    }
   ]
 }
